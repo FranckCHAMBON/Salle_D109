@@ -11,16 +11,16 @@ export_on_save:
 
 La salle D109 est équipée pour le programme NSI, mais est ouverte à tous. Beaucoup se réjouiront de l'avancée éthique que constitue l'utilisation d'un système d'exploitation libre. C'est un sujet qui devrait tous vous toucher.
 
-Ce ne sont pas seulement les élèves de NSI, ni de SNT, qui doivent être familiarisés avec autre chose que l'outil ayant un quasi monopôle.
+Ce ne sont pas seulement les élèves de NSI, ni de SNT, qui doivent être familiarisés avec autre chose que l'outil ayant un quasi-monopôle.
 
-Les outils proposés ici sont multiplateformes, ce qui veut dire qu'un travail entamé pourra être poursuivi à la maison, quelque soit le système d'exploitation. À la maison, un élève a le droit d'avoir Windows, Mac ou Linux et pouvoir disposer du logiciel de travail ; comme au lycée. **Ce devrait être une règle.**
+Les outils proposés ici sont multiplateformes, ce qui veut dire qu'un travail entamé pourra être poursuivi à la maison, quel que soit le système d'exploitation. À la maison, un élève a le droit d'avoir Windows, Mac ou Linux et pouvoir disposer du logiciel de travail ; comme au lycée. **Ce devrait être une règle.**
 
-## Démarage de session
+## Démarrage de session
 
 Rien de particulier à signaler.
 
 1. Vérifier si l'unité centrale est allumée ; la tour l'indique avec un voyant lumineux.
-2. Réveiller l'écran, en bougeant la souris ou bien avec la touche `Échap` du clavier.
+2. Réveiller l'écran, en bougeant la souris ou bien avec la touche `Échap.` du clavier.
 3. Sur l'écran d'accueil de connexion :
    1. Cliquer sur `Session d'invité`,
    2. puis sur `se connecter`.
@@ -54,7 +54,7 @@ Comment sauvegarder son travail ?
 Sur le bureau se trouvent des icônes. La liste pourra évoluer dans le temps au gré des demandes.
 - Dossier personnel : votre espace de stockage temporaire. Un accès aux fichiers.
 - Geany : un éditeur de script.
-- GeoGera : un logiciel de géométrie dynamique.
+- GeoGebra : un logiciel de géométrie dynamique.
 - LibreOffice : une suite bureautique complète.
 - Firefox : un navigateur web.
 
@@ -96,7 +96,7 @@ On ouvre la page de connexion au réseau, on peut utiliser au choix :
 <!-- @import "assets/garder.png" {width="400px" title="Ouverture de session" alt="Ouverture de session"} -->
 
 - Si vous fermer cette page par erreur, il sera possible de la retrouver dans votre historique.
-- Si vous quittez la session sans déconnecter Internet, l'utilisateur suivant bénéficie de **votre** connection Internet. Elle dure 9600 secondes, soit 2h40.
+- Si vous quittez la session sans déconnecter Internet, l'utilisateur suivant bénéficie de **votre** connexion Internet. Elle dure 9600 secondes, soit 2h40.
 
 ### Navigation
 Sur un nouvel onglet, vous pouvez accéder à ATRIUM :
@@ -108,11 +108,11 @@ Ou bien autre site pour travailler.
 ### Modules complémentaires
 Firefox est équipé de certains modules complémentaires :
 - *u-block origin* : un bloqueur efficace de publicité
-- *decentral-eyes* : un outil qui accélère les requètes tout en réduisant le pistage des sites web, dont peu sont vertueux et respectueux de la vie privé.
+- *decentral-eyes* : un outil qui accélère les requêtes tout en réduisant le pistage des sites web, dont peu sont vertueux et respectueux de la vie privé.
 - *grammalecte* : un outil de correction orthographique et grammatical.
 
 ## Fin de session
-Une fois votre session finie, **après avoir déconnecter proprement la connection Internet**, pour quitter la session, en bas à gauche, dans le menu, on peut éteindre l'ordinateur ou fermer la session.
+Une fois votre session finie, **après avoir déconnecté proprement la connexion Internet**, pour quitter la session, en bas à gauche, dans le menu, on peut éteindre l'ordinateur ou fermer la session.
 
 <!-- @import "assets/fermer.png" {width="400px" title="Ouverture de session" alt="Ouverture de session"} -->
 
