@@ -5,3 +5,21 @@
 
 salle des profs : https://eu.bbcollab.com/collab/ui/session/guest/c2aec28e6a6f4a7da79fbfb530fdf8d3
 
+
+## maths
+
+https://cocalc.com/
+
+https://oeis.org/
+
+http://geocentral.net/geometria/
+
+## Traductions
+
+https://www.deepl.com/translator
+
+
+## acad
+
+webmail https://appli.ac-aix-marseille.fr/plog/public/login
+
