@@ -1,22 +1,58 @@
-<div id="doc" class="markdown-body container-fluid comment-enabled comment-inner" data-hard-breaks="true"><h1 id="Aide-mémoire-Markdown" data-id="Aide-mémoire-Markdown"><span>Aide mémoire Markdown</span></h1><p><span>CodiMD, tout comme HackMD, permet un travail collaboratif de création de page web ; ils utilisent la syntaxe Markdown.</span></p><ul>
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>
+        Aide mémoire Markdown - HackMD
+    </title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+    <link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" integrity="sha256-3iu9jgsy9TpTwXKb7bNQzqWekRX7pPK+2OLj3R922fo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" integrity="sha256-QiWfLIsCT02Sdwkogf6YMiQlj4NE84MKkzEMkZnMGdg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" integrity="sha256-vtR0hSWRc3Tb26iuN2oZHt3KRUomwTufNIf5/4oeCyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/css/basic/emojify.min.css" integrity="sha256-UOrvMOsSDSrW6szVLe8ZDZezBxh5IoIfgTwdNDgTjiU=" crossorigin="anonymous" />
+    <style>
+        @charset "UTF-8";@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i|Source+Code+Pro:300,400,500|Source+Sans+Pro:300,300i,400,400i,600,600i|Source+Serif+Pro&subset=latin-ext);.hljs{display:block;background:#fff;padding:.5em;color:#333;overflow-x:auto}.hljs-comment,.hljs-meta{color:#969896}.hljs-emphasis,.hljs-quote,.hljs-string,.hljs-strong,.hljs-template-variable,.hljs-variable{color:#df5000}.hljs-keyword,.hljs-selector-tag,.hljs-type{color:#a71d5d}.hljs-attribute,.hljs-bullet,.hljs-literal,.hljs-number,.hljs-symbol{color:#0086b3}.hljs-built_in,.hljs-builtin-name{color:#005cc5}.hljs-name,.hljs-section{color:#63a35c}.hljs-tag{color:#333}.hljs-attr,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-selector-pseudo,.hljs-title{color:#795da3}.hljs-addition{color:#55a532;background-color:#eaffea}.hljs-deletion{color:#bd2c00;background-color:#ffecec}.hljs-link{text-decoration:underline}.markdown-body{font-size:16px;line-height:1.5;word-wrap:break-word}.markdown-body:after,.markdown-body:before{display:table;content:""}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:#c00}.markdown-body .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body hr{height:.25em;padding:0;margin:24px 0;background-color:#e7e7e7;border:0}.markdown-body blockquote{font-size:16px;padding:0 1em;color:#777;border-left:.25em solid #ddd}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body kbd,.popover kbd{display:inline-block;padding:3px 5px;font-size:11px;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb}.markdown-body .loweralpha{list-style-type:lower-alpha}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#000;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{padding-bottom:.3em;border-bottom:1px solid #eee}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#777}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol.no-list,.markdown-body ul.no-list{padding:0;list-style-type:none}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{padding-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body table{display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}.markdown-body table th{font-weight:700}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #ddd}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{max-width:none;vertical-align:text-top;background-color:transparent}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}.markdown-body span.align-center{display:block;overflow:hidden;clear:both}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{display:block;overflow:hidden;clear:both}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{padding:0;padding-top:.2em;padding-bottom:.2em;margin:0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}.markdown-body code:after,.markdown-body code:before,.markdown-body tt:after,.markdown-body tt:before{letter-spacing:-.2em;content:"\00a0"}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre{word-wrap:normal}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}.markdown-body pre code,.markdown-body pre tt{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code:after,.markdown-body pre code:before,.markdown-body pre tt:after,.markdown-body pre tt:before{content:normal}.markdown-body .csv-data td,.markdown-body .csv-data th{padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-line-num{padding:10px 8px 9px;text-align:right;background:#fff;border:0}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{font-weight:700;background:#f8f8f8;border-top:0}.news .alert .markdown-body blockquote{padding:0 0 0 40px;border:0 none}.activity-tab .news .alert .commits,.activity-tab .news .markdown-body blockquote{padding-left:0}.task-list-item{list-style-type:none}.task-list-item label{font-weight:400}.task-list-item.enabled label{cursor:pointer}.task-list-item+.task-list-item{margin-top:3px}.task-list-item-checkbox{float:left;margin:.31em 0 .2em -1.3em!important;vertical-align:middle;cursor:default!important}.markdown-body{padding-top:40px;padding-bottom:40px;max-width:758px;overflow:visible!important;position:relative}.markdown-body .emoji{vertical-align:top}.markdown-body pre{border:inherit!important}.markdown-body code{color:inherit!important}.markdown-body pre code .wrapper{display:-moz-inline-flex;display:-ms-inline-flex;display:-o-inline-flex;display:inline-flex}.markdown-body pre code .gutter{float:left;overflow:hidden;-webkit-user-select:none;user-select:none}.markdown-body pre code .gutter.linenumber{text-align:right;position:relative;display:inline-block;cursor:default;z-index:4;padding:0 8px 0 0;min-width:20px;box-sizing:content-box;color:#afafaf!important;border-right:3px solid #6ce26c!important}.markdown-body pre code .gutter.linenumber>span:before{content:attr(data-linenumber)}.markdown-body pre code .code{float:left;margin:0 0 0 16px}.markdown-body .gist .line-numbers{border-left:none;border-top:none;border-bottom:none}.markdown-body .gist .line-data{border:none}.markdown-body .gist table{border-spacing:0;border-collapse:inherit!important}.markdown-body code[data-gist-id]{background:none;padding:0}.markdown-body code[data-gist-id]:after,.markdown-body code[data-gist-id]:before{content:""}.markdown-body code[data-gist-id] .blob-num{border:unset}.markdown-body code[data-gist-id] table{overflow:unset;margin-bottom:unset}.markdown-body code[data-gist-id] table tr{background:unset}.markdown-body[dir=rtl] pre{direction:ltr}.markdown-body[dir=rtl] code{direction:ltr;unicode-bidi:embed}.markdown-body .alert>p{margin-bottom:0}.markdown-body pre.abc,.markdown-body pre.flow-chart,.markdown-body pre.graphviz,.markdown-body pre.mermaid,.markdown-body pre.sequence-diagram,.markdown-body pre.vega{text-align:center;background-color:inherit;border-radius:0;white-space:inherit;overflow:visible}.markdown-body pre.abc>code,.markdown-body pre.flow-chart>code,.markdown-body pre.graphviz>code,.markdown-body pre.mermaid>code,.markdown-body pre.sequence-diagram>code,.markdown-body pre.vega>code{text-align:left}.markdown-body pre.abc>svg,.markdown-body pre.flow-chart>svg,.markdown-body pre.graphviz>svg,.markdown-body pre.mermaid>svg,.markdown-body pre.sequence-diagram>svg,.markdown-body pre.vega>svg{max-width:100%;height:100%}.markdown-body pre>code.wrap{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}.markdown-body .alert>p,.markdown-body .alert>ul{margin-bottom:0}.markdown-body summary{display:list-item}.markdown-body summary:focus{outline:none}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none}.markdown-body figure{margin:1em 40px}.markdown-body .mark,.markdown-body mark{background-color:#fff1a7}.vimeo,.youtube{cursor:pointer;display:table;text-align:center;background-position:50%;background-repeat:no-repeat;background-size:contain;background-color:#000;overflow:hidden}.vimeo,.youtube{position:relative;width:100%}.youtube{padding-bottom:56.25%}.vimeo img{width:100%;object-fit:contain;z-index:0}.youtube img{object-fit:cover;z-index:0}.vimeo iframe,.youtube iframe,.youtube img{width:100%;height:100%;position:absolute;top:0;left:0}.vimeo iframe,.youtube iframe{vertical-align:middle;z-index:1}.vimeo .icon,.youtube .icon{position:absolute;height:auto;width:auto;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;opacity:.3;transition:opacity .2s;z-index:0}.vimeo:hover .icon,.youtube:hover .icon{opacity:.6;transition:opacity .2s}.slideshare .inner,.speakerdeck .inner{position:relative;width:100%}.slideshare .inner iframe,.speakerdeck .inner iframe{position:absolute;top:0;bottom:0;left:0;right:0;width:100%;height:100%}.MJX_Assistive_MathML{display:none}#MathJax_Message{z-index:1000!important}.ui-infobar{position:relative;z-index:2;max-width:760px;margin:25px auto -25px;color:#777}.toc .invisable-node{list-style-type:none}.ui-toc{position:fixed;bottom:20px;z-index:998}.ui-toc.both-mode{margin-left:8px}.ui-toc.both-mode .ui-toc-label{height:40px;padding:10px 4px;border-top-left-radius:0;border-bottom-left-radius:0}.ui-toc-label{background-color:#e6e6e6;border:none;color:#868686;transition:opacity .2s}.ui-toc .open .ui-toc-label{opacity:1;color:#fff;transition:opacity .2s}.ui-toc-label:focus{opacity:.3;background-color:#ccc;color:#000}.ui-toc-label:hover{opacity:1;background-color:#ccc;transition:opacity .2s}.ui-toc-dropdown{margin-top:20px;margin-bottom:20px;padding-left:10px;padding-right:10px;max-width:45vw;width:25vw;max-height:70vh;overflow:auto;text-align:inherit}.ui-toc-dropdown>.toc{max-height:calc(70vh - 100px);overflow:auto}.ui-toc-dropdown[dir=rtl] .nav{padding-right:0;letter-spacing:.0029em}.ui-toc-dropdown a{overflow:hidden;text-overflow:ellipsis;white-space:pre}.ui-toc-dropdown .nav>li>a{display:block;padding:4px 20px;font-size:13px;font-weight:500;color:#767676}.ui-toc-dropdown .nav>li:first-child:last-child > ul,.ui-toc-dropdown .toc.expand ul{display:block}.ui-toc-dropdown .nav>li>a:focus,.ui-toc-dropdown .nav>li>a:hover{padding-left:19px;color:#000;text-decoration:none;background-color:transparent;border-left:1px solid #000}.ui-toc-dropdown[dir=rtl] .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav>li>a:hover{padding-right:19px;border-left:none;border-right:1px solid #000}.ui-toc-dropdown .nav>.active:focus>a,.ui-toc-dropdown .nav>.active:hover>a,.ui-toc-dropdown .nav>.active>a{padding-left:18px;font-weight:700;color:#000;background-color:transparent;border-left:2px solid #000}.ui-toc-dropdown[dir=rtl] .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav>.active>a{padding-right:18px;border-left:none;border-right:2px solid #000}.ui-toc-dropdown .nav .nav{display:none;padding-bottom:10px}.ui-toc-dropdown .nav>.active>ul{display:block}.ui-toc-dropdown .nav .nav>li>a{padding-top:1px;padding-bottom:1px;padding-left:30px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a{padding-right:30px}.ui-toc-dropdown .nav .nav>li>ul>li>a{padding-top:1px;padding-bottom:1px;padding-left:40px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a{padding-right:40px}.ui-toc-dropdown .nav .nav>li>a:focus,.ui-toc-dropdown .nav .nav>li>a:hover{padding-left:29px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:hover{padding-right:29px}.ui-toc-dropdown .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown .nav .nav>li>ul>li>a:hover{padding-left:39px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:hover{padding-right:39px}.ui-toc-dropdown .nav .nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>a{padding-left:28px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>a{padding-right:28px}.ui-toc-dropdown .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active>a{padding-left:38px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active>a{padding-right:38px}.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif}html[lang^=ja] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html .markdown-body[lang^=ja]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html .markdown-body[lang=zh-tw]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html .markdown-body[lang=zh-cn]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html[lang^=ja] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html[lang=zh-tw] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html[lang=zh-cn] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}html .ui-toc-dropdown[lang^=ja]{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html .ui-toc-dropdown[lang=zh-tw]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html .ui-toc-dropdown[lang=zh-cn]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}.ui-affix-toc{position:fixed;top:0;max-width:15vw;max-height:70vh;overflow:auto}.back-to-top,.expand-toggle,.go-to-bottom{display:block;padding:4px 10px;margin-top:10px;margin-left:10px;font-size:12px;font-weight:500;color:#999}.back-to-top:focus,.back-to-top:hover,.expand-toggle:focus,.expand-toggle:hover,.go-to-bottom:focus,.go-to-bottom:hover{color:#563d7c;text-decoration:none}.back-to-top,.go-to-bottom{margin-top:0}.ui-user-icon{width:20px;height:20px;display:block;border-radius:50%;margin-top:2px;margin-bottom:2px;margin-right:5px;background-position:50%;background-repeat:no-repeat;background-size:cover}.ui-user-icon.small{width:18px;height:18px;display:inline-block;vertical-align:middle;margin:0 0 .2em}.ui-infobar>small>span{line-height:22px}.ui-infobar>small .dropdown{display:inline-block}.ui-infobar>small .dropdown a:focus,.ui-infobar>small .dropdown a:hover{text-decoration:none}.ui-more-info{color:#888;cursor:pointer;vertical-align:middle}.ui-more-info .fa{font-size:16px}.ui-connectedGithub,.ui-published-note{color:#888}.ui-connectedGithub{line-height:23px;white-space:nowrap}.ui-connectedGithub a.file-path{color:#888;text-decoration:none;padding-left:22px}.ui-connectedGithub a.file-path:active,.ui-connectedGithub a.file-path:hover{color:#888;text-decoration:underline}.ui-connectedGithub .fa{font-size:20px}.ui-published-note .fa{font-size:20px;vertical-align:top}.unselectable{-webkit-user-select:none;-o-user-select:none;user-select:none}.selectable{-webkit-user-select:text;-o-user-select:text;user-select:text}@media print{blockquote,div,img,pre,table{page-break-inside:avoid!important}a[href]:after{font-size:12px!important}}.markdown-body.slides{position:relative;z-index:1;color:#222}.markdown-body.slides:before{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:currentColor;box-shadow:0 0 0 50vw}.markdown-body.slides section[data-markdown]{position:relative;margin-bottom:1.5em;background-color:#fff;text-align:center}.markdown-body.slides section[data-markdown] code{text-align:left}.markdown-body.slides section[data-markdown]:before{content:"";display:block;padding-bottom:56.23%}.markdown-body.slides section[data-markdown]>div:first-child{position:absolute;top:50%;left:1em;right:1em;transform:translateY(-50%);max-height:100%;overflow:hidden}.markdown-body.slides section[data-markdown]>ul{display:inline-block}.markdown-body.slides>section>section+section:after{content:"";position:absolute;top:-1.5em;right:1em;height:1.5em;border:3px solid #777}.site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,sans-serif}html[lang^=ja] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}body{font-smoothing:subpixel-antialiased!important;-webkit-font-smoothing:subpixel-antialiased!important;-moz-osx-font-smoothing:auto!important;text-shadow:0 0 1em transparent,1px 1px 1.2px rgba(0,0,0,.004);-webkit-overflow-scrolling:touch;letter-spacing:.025em;font-family:Source Sans Pro,Helvetica,Arial,sans-serif}html[lang^=ja] body{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr[data-original-title],abbr[title]{cursor:help}body.modal-open{overflow-y:auto;padding-right:0!important}
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="doc" class="markdown-body container-fluid comment-enabled comment-inner" data-hard-breaks="true"><h1 id="Aide-mémoire-Markdown" data-id="Aide-mémoire-Markdown"><a class="anchor hidden-xs" href="#Aide-mémoire-Markdown" title="Aide-mémoire-Markdown"><span class="octicon octicon-link"></span></a><span>Aide mémoire Markdown</span></h1><p><span>CodiMD, tout comme HackMD, permet un travail collaboratif de création de page web ; ils utilisent la syntaxe Markdown.</span></p><ul>
 <li><span>Écrire directement en </span><code>.html</code><span> est compliqué…</span></li>
 <li><span>L’idée est de partir d’un texte brut.</span></li>
 <li><span>De lui faire subir un minimum de modifications pour en augmenter le sens.</span></li>
 <li><span>Un moteur de rendu créera un joli fichier </span><code>.html</code><span> à publier.</span></li>
 <li><span>C’est la méthode la plus rapide pour créer du contenu à base essentiellement de texte.</span></li>
-</ul><h2 id="Les-bases-du-Markdown" data-id="Les-bases-du-Markdown"><span>Les bases du Markdown</span></h2><h3 id="L’architecture-du-document" data-id="L’architecture-du-document"><span>L’architecture du document</span></h3><p><span>Les parties sont structurées avec des titres précédés de 1 à 6 croisillons </span><code>#</code><span> suivant leur niveau importance. Cela donne du sens au texte, ce n’est pas que de la mise en forme ; cela permet :</span></p><ul>
+</ul><h2 id="Les-bases-du-Markdown" data-id="Les-bases-du-Markdown"><a class="anchor hidden-xs" href="#Les-bases-du-Markdown" title="Les-bases-du-Markdown"><span class="octicon octicon-link"></span></a><span>Les bases du Markdown</span></h2><h3 id="L’architecture-du-document" data-id="L’architecture-du-document"><a class="anchor hidden-xs" href="#L’architecture-du-document" title="L’architecture-du-document"><span class="octicon octicon-link"></span></a><span>L’architecture du document</span></h3><p><span>Les parties sont structurées avec des titres précédés de 1 à 6 croisillons </span><code>#</code><span> suivant leur niveau importance. Cela donne du sens au texte, ce n’est pas que de la mise en forme ; cela permet :</span></p><ul>
 <li><span>d’obtenir une table des matières automatique ;</span></li>
 <li><span>de pouvoir définir un style commun à tous les titres de même niveau.</span></li>
 </ul><blockquote>
 <p><span>Regarder le document source de cette page !</span></p>
-</blockquote><h3 id="Les-listes-à-puces" data-id="Les-listes-à-puces"><span>Les listes à puces</span></h3><h4 id="Listes-numérotées" data-id="Listes-numérotées"><span>Listes numérotées</span></h4><p><span>On commence par le numéro de son choix (souvent 1), on ajoute </span><strong><span>un point puis une espace</span></strong><span>. Ensuite la numérotation est automatique.</span></p><blockquote>
+</blockquote><h3 id="Les-listes-à-puces" data-id="Les-listes-à-puces"><a class="anchor hidden-xs" href="#Les-listes-à-puces" title="Les-listes-à-puces"><span class="octicon octicon-link"></span></a><span>Les listes à puces</span></h3><h4 id="Listes-numérotées" data-id="Listes-numérotées"><a class="anchor hidden-xs" href="#Listes-numérotées" title="Listes-numérotées"><span class="octicon octicon-link"></span></a><span>Listes numérotées</span></h4><p><span>On commence par le numéro de son choix (souvent 1), on ajoute </span><strong><span>un point puis une espace</span></strong><span>. Ensuite la numérotation est automatique.</span></p><blockquote>
 <p><span>Si on ajoute ou retire ensuite des lignes, la numérotation respectera la progression en partant de la première.</span></p>
 </blockquote><ol>
 <li><span>Je commence ici à 1, par exemple.</span></li>
 <li><span>Peu importe ensuite les numéros…</span></li>
 <li><span>J’avais écrit trois belles lignes, elles sont effacées.</span></li>
 <li><span>Celle-ci était après la 5.</span></li>
-</ol><h4 id="Listes-non-numérotées" data-id="Listes-non-numérotées"><span>Listes non numérotées</span></h4><ul>
+</ol><h4 id="Listes-non-numérotées" data-id="Listes-non-numérotées"><a class="anchor hidden-xs" href="#Listes-non-numérotées" title="Listes-non-numérotées"><span class="octicon octicon-link"></span></a><span>Listes non numérotées</span></h4><ul>
 <li><span>On utilise, au clavier, les puces </span><code>-</code><span> ou </span><code>*</code><span> ou </span><code>+</code><span>, </span><strong><span>puis une espace avant</span></strong><span> chaque item.</span></li>
 </ul><ul>
 <li><span>On peut faire une liste à l’intérieur d’une liste, en la décalant avec une tabulation.</span></li>
@@ -48,31 +84,31 @@
 </li>
 </ul>
 </li>
-</ul><h3 id="Les-citations" data-id="Les-citations"><span>Les citations</span></h3><blockquote>
+</ul><h3 id="Les-citations" data-id="Les-citations"><a class="anchor hidden-xs" href="#Les-citations" title="Les-citations"><span class="octicon octicon-link"></span></a><span>Les citations</span></h3><blockquote>
 <p><span>Il suffit de commencer par un chevron </span><code>&gt;</code><span>.</span></p>
 <blockquote>
 <p><span>Ou deux, pour une citation dans la citation…</span></p>
 </blockquote>
-</blockquote><h3 id="Les-liens-Internet" data-id="Les-liens-Internet"><span>Les liens Internet</span></h3><p><span>On utilise la syntaxe </span><code>[texte du lien](https://lien.internet.truc)</code><span>, comme pour une liste de moteurs de recherche alternatifs :</span></p><ul>
+</blockquote><h3 id="Les-liens-Internet" data-id="Les-liens-Internet"><a class="anchor hidden-xs" href="#Les-liens-Internet" title="Les-liens-Internet"><span class="octicon octicon-link"></span></a><span>Les liens Internet</span></h3><p><span>On utilise la syntaxe </span><code>[texte du lien](https://lien.internet.truc)</code><span>, comme pour une liste de moteurs de recherche alternatifs :</span></p><ul>
 <li><a href="https://www.startpage.com/" target="_blank" rel="noopener"><span>StartPage</span></a></li>
 <li><a href="https://duckduckgo.com/" target="_blank" rel="noopener"><span>DuckDuckGo</span></a></li>
 <li><a href="https://www.qwant.com/" target="_blank" rel="noopener"><span>Qwant</span></a></li>
 </ul><blockquote>
 <p><span>Penser à regarder le code source des exemples pour bien faire le </span><em><span>lien</span></em><span> </span><img class="emoji" alt=":smile:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/smile.png"><span> !</span></p>
-</blockquote><h3 id="Insérer-une-image" data-id="Insérer-une-image"><span>Insérer une image</span></h3><p><span>La syntaxe est très proche des liens : </span><code>![texte alternatif](mon_image.jpg)</code></p><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Total_Solar_Eclipse_8-21-17.jpg/180px-Total_Solar_Eclipse_8-21-17.jpg?uselang=fr" alt="Éclipse solaire, 2017-08-20"></p><blockquote>
+</blockquote><h3 id="Insérer-une-image" data-id="Insérer-une-image"><a class="anchor hidden-xs" href="#Insérer-une-image" title="Insérer-une-image"><span class="octicon octicon-link"></span></a><span>Insérer une image</span></h3><p><span>La syntaxe est très proche des liens : </span><code>![texte alternatif](mon_image.jpg)</code></p><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Total_Solar_Eclipse_8-21-17.jpg/180px-Total_Solar_Eclipse_8-21-17.jpg?uselang=fr" alt="Éclipse solaire, 2017-08-20"></p><blockquote>
 <p><span>L’éclipse solaire du 21 août 2017 vue depuis le Wyoming (États-Unis). Cette photographie utilise la technique du bracketing pour faire apparaître à la fois la couronne solaire et la surface de la Lune, illuminée par le clair de Terre.</span><br>
 <span>Image libre Wikimedia Commons : </span><a href="https://commons.wikimedia.org/wiki/File:Total_Solar_Eclipse_8-21-17.jpg?uselang=fr" target="_blank" rel="noopener"><span>Source</span></a></p>
 </blockquote><ul>
 <li><span>Le texte alternatif est utilisé à l’attention des robots qui indexent la page web.</span></li>
 <li><span>Mais aussi pour les malvoyants qui peuvent se faire dicter le contenu texte d’une page.</span></li>
 <li><span>Enfin, en cas de perte du fichier image, le texte le remplace.</span></li>
-</ul><h3 id="L’emphase" data-id="L’emphase"><span>L’emphase</span></h3><p><span>Pour faire </span><em><strong><span>ressortir</span></strong></em><span> certains mots, on utilise de </span><strong><span>l’emphase forte</span></strong><span> ou bien de </span><em><span>l’emphase faible</span></em><span>.</span></p><ul>
+</ul><h3 id="L’emphase" data-id="L’emphase"><a class="anchor hidden-xs" href="#L’emphase" title="L’emphase"><span class="octicon octicon-link"></span></a><span>L’emphase</span></h3><p><span>Pour faire </span><em><strong><span>ressortir</span></strong></em><span> certains mots, on utilise de </span><strong><span>l’emphase forte</span></strong><span> ou bien de </span><em><span>l’emphase faible</span></em><span>.</span></p><ul>
 <li><span>L’emphase forte est souvent en </span><strong><span>gras</span></strong><span>.</span></li>
 <li><span>L’emphase faible est souvent en </span><em><span>italique</span></em><span>.</span></li>
 <li><span>On peut combiner les </span><em><strong><span>deux</span></strong></em><span>.</span></li>
 </ul><blockquote>
 <p><span>Elle doit s’utiliser avec justesse ; le moins possible.</span></p>
-</blockquote><h3 id="La-ligne-horizontale" data-id="La-ligne-horizontale"><span>La ligne horizontale</span></h3><p><span>Entre </span><strong><span>deux lignes vides</span></strong><span>, on place une ligne contenant </span><code>---</code><span>, comme ci-dessous.</span></p><hr><p><span>Voilà.</span></p><h3 id="Les-tableaux" data-id="Les-tableaux"><span>Les tableaux</span></h3><p><span>On peut faire des tableaux de plusieurs lignes et plusieurs colonnes en suivant le modèle :</span></p><table>
+</blockquote><h3 id="La-ligne-horizontale" data-id="La-ligne-horizontale"><a class="anchor hidden-xs" href="#La-ligne-horizontale" title="La-ligne-horizontale"><span class="octicon octicon-link"></span></a><span>La ligne horizontale</span></h3><p><span>Entre </span><strong><span>deux lignes vides</span></strong><span>, on place une ligne contenant </span><code>---</code><span>, comme ci-dessous.</span></p><hr><p><span>Voilà.</span></p><h3 id="Les-tableaux" data-id="Les-tableaux"><a class="anchor hidden-xs" href="#Les-tableaux" title="Les-tableaux"><span class="octicon octicon-link"></span></a><span>Les tableaux</span></h3><p><span>On peut faire des tableaux de plusieurs lignes et plusieurs colonnes en suivant le modèle :</span></p><table>
 <thead>
 <tr>
 <th style="text-align:right"><span>Nom</span></th>
@@ -107,17 +143,17 @@
 <li><code>|:---|</code><span> signifie : justification à gauche ;</span></li>
 <li><code>|---:|</code><span> signifie : justification à droite ;</span></li>
 <li><code>|:---:|</code><span> signifie : justification centrée.</span></li>
-</ul><h2 id="Markdown-avancé" data-id="Markdown-avancé"><span>Markdown avancé</span></h2><p><span>Avec CodiMD, ou bien HackMD, on peut obtenir un peu plus d’actions.</span></p><h3 id="Le-texte" data-id="Le-texte"><span>Le texte</span></h3><ul>
+</ul><h2 id="Markdown-avancé" data-id="Markdown-avancé"><a class="anchor hidden-xs" href="#Markdown-avancé" title="Markdown-avancé"><span class="octicon octicon-link"></span></a><span>Markdown avancé</span></h2><p><span>Avec CodiMD, ou bien HackMD, on peut obtenir un peu plus d’actions.</span></p><h3 id="Le-texte" data-id="Le-texte"><a class="anchor hidden-xs" href="#Le-texte" title="Le-texte"><span class="octicon octicon-link"></span></a><span>Le texte</span></h3><ul>
 <li><s><span>Texte barré</span></s></li>
 <li><span>Écrire en exposant : 2</span><sup><span>e</span></sup><span> pour deuxième.</span></li>
 <li><span>Écrire en indice : H</span><sub><span>2</span></sub><span>O pour l’eau.</span></li>
 <li><span>Écrire un </span><ins><span>passage ajouté récemment</span></ins><span> ; il est souvent souligné.</span></li>
 <li><span>Écrire un </span><mark><span>texte surligné</span></mark><span>.</span></li>
 <li><ruby><span>un truc à la base</span><rt><span>un truc au-dessus</span></rt></ruby><span> ; mais pourquoi faire ?</span></li>
-</ul><h3 id="Les-émojis-" data-id="Les-émojis-"><span>Les émojis </span><img class="emoji" alt=":smirk_cat:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/smirk_cat.png"></h3><p><span>Il suffit de taper </span><code>:</code><span> autour d’un nom de code. Comme </span><code>:fireworks:</code><span> qui donne </span><img class="emoji" alt=":fireworks:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/fireworks.png"><span>.</span><br>
+</ul><h3 id="Les-émojis-" data-id="Les-émojis-"><a class="anchor hidden-xs" href="#Les-émojis-" title="Les-émojis-"><span class="octicon octicon-link"></span></a><span>Les émojis </span><img class="emoji" alt=":smirk_cat:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/smirk_cat.png"></h3><p><span>Il suffit de taper </span><code>:</code><span> autour d’un nom de code. Comme </span><code>:fireworks:</code><span> qui donne </span><img class="emoji" alt=":fireworks:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/fireworks.png"><span>.</span><br>
 <span>Dès qu’on tape </span><code>:</code><span> des suggestions apparaissent. </span><img class="emoji" alt=":panda_face:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/panda_face.png"></p><blockquote>
 <p><span>La liste complète est </span><mark><a href="https://github.com/ikatyang/emoji-cheat-sheet" target="_blank" rel="noopener"><span>ici</span></a></mark><span>.</span></p>
-</blockquote><h3 id="Les-cases-à-cocher" data-id="Les-cases-à-cocher"><span>Les cases à cocher</span></h3><p><span>On ajoute un </span><code>[ ]</code><span> ou un </span><code>[x]</code><span> à la suite d’une puce, avec de l’espace. On obtient des cases qui sont (dé-)cochées.</span></p><ul class="contains-task-list">
+</blockquote><h3 id="Les-cases-à-cocher" data-id="Les-cases-à-cocher"><a class="anchor hidden-xs" href="#Les-cases-à-cocher" title="Les-cases-à-cocher"><span class="octicon octicon-link"></span></a><span>Les cases à cocher</span></h3><p><span>On ajoute un </span><code>[ ]</code><span> ou un </span><code>[x]</code><span> à la suite d’une puce, avec de l’espace. On obtient des cases qui sont (dé-)cochées.</span></p><ul class="contains-task-list">
 <li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox" disabled="disabled"><span> Boulot</span>
 <ul class="contains-task-list">
 <li class="task-list-item enabled"><input class="task-list-item-checkbox" checked="" type="checkbox" disabled="disabled"><span> Corriger les copies</span></li>
@@ -132,7 +168,7 @@
 <li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox" disabled="disabled"><span> Refaire la sdb</span></li>
 </ul>
 </li>
-</ul><h3 id="Inclure-du-code-Python" data-id="Inclure-du-code-Python"><span>Inclure du code Python</span></h3><p><span>Un script :</span></p><pre><code class="python hljs"><div class="wrapper"><div class="gutter linenumber"><span data-linenumber="1"></span>
+</ul><h3 id="Inclure-du-code-Python" data-id="Inclure-du-code-Python"><a class="anchor hidden-xs" href="#Inclure-du-code-Python" title="Inclure-du-code-Python"><span class="octicon octicon-link"></span></a><span>Inclure du code Python</span></h3><p><span>Un script :</span></p><pre><code class="python hljs"><div class="wrapper"><div class="gutter linenumber"><span data-linenumber="1"></span>
 <span data-linenumber="2"></span>
 <span data-linenumber="3"></span>
 <span data-linenumber="4"></span>
@@ -149,7 +185,7 @@
         <span class="hljs-keyword">return</span> n * factorielle(n - <span class="hljs-number">1</span>)
 </div></div></code></pre><p><span>Une utilisation console :</span></p><pre><code class="python hljs"><span class="hljs-meta">&gt;&gt;&gt; </span>factorielle(<span class="hljs-number">5</span>)
 <span class="hljs-number">120</span>
-</code></pre><h3 id="Inclure-des-boîtes" data-id="Inclure-des-boîtes"><span>Inclure des boîtes</span></h3><div class="alert alert-success">
+</code></pre><h3 id="Inclure-des-boîtes" data-id="Inclure-des-boîtes"><a class="anchor hidden-xs" href="#Inclure-des-boîtes" title="Inclure-des-boîtes"><span class="octicon octicon-link"></span></a><span>Inclure des boîtes</span></h3><div class="alert alert-success">
 <p><span>Victoire </span><img class="emoji" alt=":tada:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/tada.png"></p>
 </div><div class="alert alert-info">
 <p><span>Voici un message </span><img class="emoji" alt=":mega:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/mega.png"></p>
@@ -159,8 +195,222 @@
 <p><span>Danger </span><img class="emoji" alt=":fire:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/fire.png"></p>
 </div><details><summary>Où suis-je ; clique-moi.</summary>
 <p><span>J’étais caché là </span><img class="emoji" alt=":stuck_out_tongue_winking_eye:" src="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/images/basic/stuck_out_tongue_winking_eye.png"></p>
-</details><h3 id="Inclure-du-web-embarqué-embed" data-id="Inclure-du-web-embarqué-embed"><span>Inclure du web embarqué </span><code>embed</code></h3><h4 id="Des-vidéos" data-id="Des-vidéos"><span>Des vidéos</span></h4><iframe src="https://player.vimeo.com/video/195730048" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="640" height="360" frameborder="0"></iframe><h4 id="Des-figures-GeoGebra" data-id="Des-figures-GeoGebra"><span>Des figures GeoGebra</span></h4><iframe src="https://www.geogebra.org/classic/mcfuhcne" style="border: 1px solid black" width="800" height="600"></iframe><h4 id="Des-PDF" data-id="Des-PDF"><span>Des PDF</span></h4><p><span class="pdf" data-pdfurl="https://vosnouvellesdu95.files.wordpress.com/2017/03/notre-dame-de-paris.pdf"><div class="pdfobject-container"><embed src="https://vosnouvellesdu95.files.wordpress.com/2017/03/notre-dame-de-paris.pdf" class="pdfobject" type="application/pdf" style="overflow: auto; width: 100%; height: 400px;"></div></span></p><h4 id="Des-diaporamas" data-id="Des-diaporamas"><span>Des diaporamas</span></h4><h5 id="SlideShare" data-id="SlideShare"><span>SlideShare</span></h5><p><span class="slideshare" data-slideshareid="briansolis/26-disruptive-technology-trends-2016-2018-56796196"><div class="inner" style="padding-bottom: 83.3724%;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/zTckhjEe9nT5j8" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen="" width="427" height="356" frameborder="0"> </iframe></div><div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/briansolis/26-disruptive-technology-trends-2016-2018-56796196" title="26 Disruptive &amp; Technology Trends 2016 - 2018" target="_blank">26 Disruptive &amp; Technology Trends 2016 - 2018</a> </strong> from <strong><a href="https://www.slideshare.net/briansolis" target="_blank">Brian Solis</a></strong> </div></span></p><h5 id="Speakerdeck" data-id="Speakerdeck"><span>Speakerdeck</span></h5><p><span class="speakerdeck" data-speakerdeckid="sugarenia/xxlcss-how-to-scale-css-and-keep-your-sanity"><div class="inner" style="padding-bottom: 56.1972%;"><iframe id="talk_frame_100960" src="https://speakerdeck.com/player/cc9ecfc0c16a0131e0fe72c781b73270" style="border:0; padding:0; margin:0; background:transparent;" allowtransparency="true" allowfullscreen="allowfullscreen" mozallowfullscreen="true" webkitallowfullscreen="true" width="710" height="399" frameborder="0"></iframe></div></span></p><h3 id="Encore-plus-" data-id="Encore-plus-"><span>Encore plus ?</span></h3><p><span>Oui, </span><a href="https://hackmd.io/features?both" target="_blank" rel="noopener"><span>encore plus</span></a></p><ul>
+</details><h3 id="Inclure-du-web-embarqué-embed" data-id="Inclure-du-web-embarqué-embed"><a class="anchor hidden-xs" href="#Inclure-du-web-embarqué-embed" title="Inclure-du-web-embarqué-embed"><span class="octicon octicon-link"></span></a><span>Inclure du web embarqué </span><code>embed</code></h3><h4 id="Des-vidéos" data-id="Des-vidéos"><a class="anchor hidden-xs" href="#Des-vidéos" title="Des-vidéos"><span class="octicon octicon-link"></span></a><span>Des vidéos</span></h4><iframe src="https://player.vimeo.com/video/195730048" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="640" height="360" frameborder="0"></iframe><h4 id="Des-figures-GeoGebra" data-id="Des-figures-GeoGebra"><a class="anchor hidden-xs" href="#Des-figures-GeoGebra" title="Des-figures-GeoGebra"><span class="octicon octicon-link"></span></a><span>Des figures GeoGebra</span></h4><iframe src="https://www.geogebra.org/classic/mcfuhcne" style="border: 1px solid black" width="800" height="600"></iframe><h4 id="Des-PDF" data-id="Des-PDF"><a class="anchor hidden-xs" href="#Des-PDF" title="Des-PDF"><span class="octicon octicon-link"></span></a><span>Des PDF</span></h4><p><span class="pdf" data-pdfurl="https://vosnouvellesdu95.files.wordpress.com/2017/03/notre-dame-de-paris.pdf"><div class="pdfobject-container"><embed src="https://vosnouvellesdu95.files.wordpress.com/2017/03/notre-dame-de-paris.pdf" class="pdfobject" type="application/pdf" style="overflow: auto; width: 100%; height: 400px;"></div></span></p><h4 id="Des-diaporamas" data-id="Des-diaporamas"><a class="anchor hidden-xs" href="#Des-diaporamas" title="Des-diaporamas"><span class="octicon octicon-link"></span></a><span>Des diaporamas</span></h4><h5 id="SlideShare" data-id="SlideShare"><a class="anchor hidden-xs" href="#SlideShare" title="SlideShare"><span class="octicon octicon-link"></span></a><span>SlideShare</span></h5><p><span class="slideshare" data-slideshareid="briansolis/26-disruptive-technology-trends-2016-2018-56796196"><div class="inner" style="padding-bottom: 83.3724%;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/zTckhjEe9nT5j8" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen="" width="427" height="356" frameborder="0"> </iframe></div><div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/briansolis/26-disruptive-technology-trends-2016-2018-56796196" title="26 Disruptive &amp; Technology Trends 2016 - 2018" target="_blank">26 Disruptive &amp; Technology Trends 2016 - 2018</a> </strong> from <strong><a href="https://www.slideshare.net/briansolis" target="_blank">Brian Solis</a></strong> </div></span></p><h5 id="Speakerdeck" data-id="Speakerdeck"><a class="anchor hidden-xs" href="#Speakerdeck" title="Speakerdeck"><span class="octicon octicon-link"></span></a><span>Speakerdeck</span></h5><p><span class="speakerdeck" data-speakerdeckid="sugarenia/xxlcss-how-to-scale-css-and-keep-your-sanity"><div class="inner" style="padding-bottom: 56.1972%;"><iframe id="talk_frame_100960" src="https://speakerdeck.com/player/cc9ecfc0c16a0131e0fe72c781b73270" style="border:0; padding:0; margin:0; background:transparent;" allowtransparency="true" allowfullscreen="allowfullscreen" mozallowfullscreen="true" webkitallowfullscreen="true" width="710" height="399" frameborder="0"></iframe></div></span></p><h3 id="Encore-plus-" data-id="Encore-plus-"><a class="anchor hidden-xs" href="#Encore-plus-" title="Encore-plus-"><span class="octicon octicon-link"></span></a><span>Encore plus ?</span></h3><p><span>Oui, </span><a href="https://hackmd.io/features?both" target="_blank" rel="noopener"><span>encore plus</span></a></p><ul>
 <li><span>des diagrammes ;</span></li>
 <li><span>des partitions ;</span></li>
 <li><span>…</span></li>
 </ul></div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                <div class="toc"><ul class="nav">
+<li class=""><a href="#Aide-mémoire-Markdown" title="Aide mémoire Markdown">Aide mémoire Markdown</a><ul class="nav">
+<li class=""><a href="#Les-bases-du-Markdown" title="Les bases du Markdown">Les bases du Markdown</a><ul class="nav">
+<li class=""><a href="#L’architecture-du-document" title="L’architecture du document">L’architecture du document</a></li>
+<li class=""><a href="#Les-listes-à-puces" title="Les listes à puces">Les listes à puces</a></li>
+<li class=""><a href="#Les-citations" title="Les citations">Les citations</a></li>
+<li class=""><a href="#Les-liens-Internet" title="Les liens Internet">Les liens Internet</a></li>
+<li class=""><a href="#Insérer-une-image" title="Insérer une image">Insérer une image</a></li>
+<li><a href="#L’emphase" title="L’emphase">L’emphase</a></li>
+<li><a href="#La-ligne-horizontale" title="La ligne horizontale">La ligne horizontale</a></li>
+<li><a href="#Les-tableaux" title="Les tableaux">Les tableaux</a></li>
+</ul>
+</li>
+<li class=""><a href="#Markdown-avancé" title="Markdown avancé">Markdown avancé</a><ul class="nav">
+<li><a href="#Le-texte" title="Le texte">Le texte</a></li>
+<li><a href="#Les-émojis-" title="Les émojis ">Les émojis </a></li>
+<li><a href="#Les-cases-à-cocher" title="Les cases à cocher">Les cases à cocher</a></li>
+<li><a href="#Inclure-du-code-Python" title="Inclure du code Python">Inclure du code Python</a></li>
+<li><a href="#Inclure-des-boîtes" title="Inclure des boîtes">Inclure des boîtes</a></li>
+<li class=""><a href="#Inclure-du-web-embarqué-embed" title="Inclure du web embarqué embed">Inclure du web embarqué embed</a></li>
+<li class=""><a href="#Encore-plus-" title="Encore plus ?">Encore plus ?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;" null null>
+        <div class="toc"><ul class="nav">
+<li class=""><a href="#Aide-mémoire-Markdown" title="Aide mémoire Markdown">Aide mémoire Markdown</a><ul class="nav">
+<li class=""><a href="#Les-bases-du-Markdown" title="Les bases du Markdown">Les bases du Markdown</a><ul class="nav">
+<li class=""><a href="#L’architecture-du-document" title="L’architecture du document">L’architecture du document</a></li>
+<li class=""><a href="#Les-listes-à-puces" title="Les listes à puces">Les listes à puces</a></li>
+<li class=""><a href="#Les-citations" title="Les citations">Les citations</a></li>
+<li class=""><a href="#Les-liens-Internet" title="Les liens Internet">Les liens Internet</a></li>
+<li class=""><a href="#Insérer-une-image" title="Insérer une image">Insérer une image</a></li>
+<li><a href="#L’emphase" title="L’emphase">L’emphase</a></li>
+<li><a href="#La-ligne-horizontale" title="La ligne horizontale">La ligne horizontale</a></li>
+<li><a href="#Les-tableaux" title="Les tableaux">Les tableaux</a></li>
+</ul>
+</li>
+<li class=""><a href="#Markdown-avancé" title="Markdown avancé">Markdown avancé</a><ul class="nav">
+<li><a href="#Le-texte" title="Le texte">Le texte</a></li>
+<li><a href="#Les-émojis-" title="Les émojis ">Les émojis </a></li>
+<li><a href="#Les-cases-à-cocher" title="Les cases à cocher">Les cases à cocher</a></li>
+<li><a href="#Inclure-du-code-Python" title="Inclure du code Python">Inclure du code Python</a></li>
+<li><a href="#Inclure-des-boîtes" title="Inclure des boîtes">Inclure des boîtes</a></li>
+<li class=""><a href="#Inclure-du-web-embarqué-embed" title="Inclure du web embarqué embed">Inclure du web embarqué embed</a></li>
+<li class=""><a href="#Encore-plus-" title="Encore plus ?">Encore plus ?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer></script>
+    <script>
+        var markdown = $(".markdown-body");
+        //smooth all hash trigger scrolling
+        function smoothHashScroll() {
+            var hashElements = $("a[href^='#']").toArray();
+            for (var i = 0; i < hashElements.length; i++) {
+                var element = hashElements[i];
+                var $element = $(element);
+                var hash = element.hash;
+                if (hash) {
+                    $element.on('click', function (e) {
+                        // store hash
+                        var hash = this.hash;
+                        if ($(hash).length <= 0) return;
+                        // prevent default anchor click behavior
+                        e.preventDefault();
+                        // animate
+                        $('body, html').stop(true, true).animate({
+                            scrollTop: $(hash).offset().top
+                        }, 100, "linear", function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            window.location.hash = hash;
+                        });
+                    });
+                }
+            }
+        }
+
+        smoothHashScroll();
+        var toc = $('.ui-toc');
+        var tocAffix = $('.ui-affix-toc');
+        var tocDropdown = $('.ui-toc-dropdown');
+        //toc
+        tocDropdown.click(function (e) {
+            e.stopPropagation();
+        });
+
+        var enoughForAffixToc = true;
+
+        function generateScrollspy() {
+            $(document.body).scrollspy({
+                target: ''
+            });
+            $(document.body).scrollspy('refresh');
+            if (enoughForAffixToc) {
+                toc.hide();
+                tocAffix.show();
+            } else {
+                tocAffix.hide();
+                toc.show();
+            }
+            $(document.body).scroll();
+        }
+
+        function windowResize() {
+            //toc right
+            var paddingRight = parseFloat(markdown.css('padding-right'));
+            var right = ($(window).width() - (markdown.offset().left + markdown.outerWidth() - paddingRight));
+            toc.css('right', right + 'px');
+            //affix toc left
+            var newbool;
+            var rightMargin = (markdown.parent().outerWidth() - markdown.outerWidth()) / 2;
+            //for ipad or wider device
+            if (rightMargin >= 133) {
+                newbool = true;
+                var affixLeftMargin = (tocAffix.outerWidth() - tocAffix.width()) / 2;
+                var left = markdown.offset().left + markdown.outerWidth() - affixLeftMargin;
+                tocAffix.css('left', left + 'px');
+            } else {
+                newbool = false;
+            }
+            if (newbool != enoughForAffixToc) {
+                enoughForAffixToc = newbool;
+                generateScrollspy();
+            }
+        }
+        $(window).resize(function () {
+            windowResize();
+        });
+        $(document).ready(function () {
+            windowResize();
+            generateScrollspy();
+        });
+
+        //remove hash
+        function removeHash() {
+            window.location.hash = '';
+        }
+
+        var backtotop = $('.back-to-top');
+        var gotobottom = $('.go-to-bottom');
+
+        backtotop.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToTop)
+                scrollToTop();
+            removeHash();
+        });
+        gotobottom.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToBottom)
+                scrollToBottom();
+            removeHash();
+        });
+
+        var toggle = $('.expand-toggle');
+        var tocExpand = false;
+
+        checkExpandToggle();
+        toggle.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            tocExpand = !tocExpand;
+            checkExpandToggle();
+        })
+
+        function checkExpandToggle () {
+            var toc = $('.ui-toc-dropdown .toc');
+            var toggle = $('.expand-toggle');
+            if (!tocExpand) {
+                toc.removeClass('expand');
+                toggle.text('Expand all');
+            } else {
+                toc.addClass('expand');
+                toggle.text('Collapse all');
+            }
+        }
+
+        function scrollToTop() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: 0
+            }, 100, "linear");
+        }
+
+        function scrollToBottom() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: $(document.body)[0].scrollHeight
+            }, 100, "linear");
+        }
+    </script>
+</body>
+
+</html>
